@@ -1,5 +1,6 @@
-package tuto_git;
+package git_tuto;
 
+import git_tuto.Vue;
 import java.awt.Frame;
 
 public class Application extends Frame {
@@ -11,6 +12,7 @@ public class Application extends Frame {
 	public Application() {
 		super();
 		
+                String name="Olivier";
 		Modèle modl = new Modèle();
 		Contrôleur ctrl = new Contrôleur(modl); 
 		Vue vue = new Vue();
